@@ -1,0 +1,14 @@
+C:\Users\MTCStudent\Desktop\ZombieShooter\ZombieShooter\TheMainMenu\bin\Debug\TheMainMenu.exe.config
+C:\Users\MTCStudent\Desktop\ZombieShooter\ZombieShooter\TheMainMenu\bin\Debug\TheMainMenu.exe
+C:\Users\MTCStudent\Desktop\ZombieShooter\ZombieShooter\TheMainMenu\bin\Debug\TheMainMenu.pdb
+C:\Users\MTCStudent\Desktop\ZombieShooter\ZombieShooter\TheMainMenu\bin\Debug\ZombieShooter.exe
+C:\Users\MTCStudent\Desktop\ZombieShooter\ZombieShooter\TheMainMenu\bin\Debug\ZombieShooter.pdb
+C:\Users\MTCStudent\Desktop\ZombieShooter\ZombieShooter\TheMainMenu\bin\Debug\ZombieShooter.exe.config
+C:\Users\MTCStudent\Desktop\ZombieShooter\ZombieShooter\TheMainMenu\obj\Debug\TheMainMenu.Form1.resources
+C:\Users\MTCStudent\Desktop\ZombieShooter\ZombieShooter\TheMainMenu\obj\Debug\TheMainMenu.Properties.Resources.resources
+C:\Users\MTCStudent\Desktop\ZombieShooter\ZombieShooter\TheMainMenu\obj\Debug\TheMainMenu.csproj.GenerateResource.Cache
+C:\Users\MTCStudent\Desktop\ZombieShooter\ZombieShooter\TheMainMenu\obj\Debug\TheMainMenu.csproj.CoreCompileInputs.cache
+C:\Users\MTCStudent\Desktop\ZombieShooter\ZombieShooter\TheMainMenu\obj\Debug\TheMainMenu.exe
+C:\Users\MTCStudent\Desktop\ZombieShooter\ZombieShooter\TheMainMenu\obj\Debug\TheMainMenu.pdb
+C:\Users\MTCStudent\Desktop\ZombieShooter\ZombieShooter\TheMainMenu\obj\Debug\TheMainMenu.csprojAssemblyReference.cache
+C:\Users\MTCStudent\Desktop\ZombieShooter\ZombieShooter\TheMainMenu\obj\Debug\TheMainMenu.csproj.CopyComplete

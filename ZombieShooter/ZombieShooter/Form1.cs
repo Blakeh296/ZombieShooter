@@ -19,6 +19,7 @@ namespace ZombieShooter
         // start of variable list
         // Edit the variables to give you a different in game experience
 
+        string pixelheart = "C:/Users/MTCStudent/Desktop/ZombieShooter/ZombieShooter/ZombieShooter/Resources/pixel_heart.png";
         int roundCounter = 2;
         bool goup; //thid boolean will be used for the player to go up the screen
         bool godown; //this boolean will be used for the player to go down the screen
@@ -112,7 +113,7 @@ namespace ZombieShooter
                     Shoot(facing); //invoke the shoot function with the facing string inside
                     //facing will transfer up, down, left, right to the function and that will shoot the bullets the right direction
 
-                    if (ammo < 1) //if ammo is less than one
+                    if (ammo < 4) //if ammo is less than four
                     {
                         DropAmmo(); // invoke drop ammo function
                     }
@@ -139,8 +140,8 @@ namespace ZombieShooter
             label1.Text = "Ammo: " + ammo; //show the ammo amount on label 1
             label2.Text = "Kills: " + score; //show total kills on the score
 
-            // if player health is less than 20
-            if (playerHealth < 20)
+            // if player health is less than 30
+            if (playerHealth < 30)
             {
                 // change progress bar color to red
                 progressBar1.ForeColor = System.Drawing.Color.Red; 
@@ -332,6 +333,14 @@ namespace ZombieShooter
             this.Controls.Add(ammo); // add the ammo picture to the screen
             ammo.BringToFront(); // bring it to front
             player.BringToFront(); // bring the player to the front
+        }
+
+        private void DropHealth()
+        {
+            // this function will make a health images for the game
+            PictureBox health = new PictureBox(); // Create a new instance of the picture box
+            health.Image = Properties.Resources.
+
         }
 
         private void Shoot(string direct)

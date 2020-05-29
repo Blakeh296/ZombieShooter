@@ -12,7 +12,7 @@ namespace ZombieShooter
     {
         // start the variable
         public string direction; // creating a public string called direction
-        public int speed = 20; // creating a integer called speed and assigning a value of 20
+        public int speed = 70; // creating a integer called speed and assigning a value of 20
         PictureBox Bullet = new PictureBox(); // create a picture box
         Timer tm = new Timer(); // create a new timer called tm.
 
