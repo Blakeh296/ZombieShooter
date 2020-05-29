@@ -19,7 +19,6 @@ namespace ZombieShooter
         // start of variable list
         // Edit the variables to give you a different in game experience
 
-        string pixelheart = "C:/Users/MTCStudent/Desktop/ZombieShooter/ZombieShooter/ZombieShooter/Resources/pixel_heart.png";
         int roundCounter = 2;
         bool goup; //thid boolean will be used for the player to go up the screen
         bool godown; //this boolean will be used for the player to go down the screen
@@ -144,7 +143,8 @@ namespace ZombieShooter
             if (playerHealth < 30)
             {
                 // change progress bar color to red
-                progressBar1.ForeColor = System.Drawing.Color.Red; 
+                progressBar1.ForeColor = System.Drawing.Color.Red;
+                DropHealth();
             }
 
             if (goleft && player.Left > 0)
@@ -339,8 +339,14 @@ namespace ZombieShooter
         {
             // this function will make a health images for the game
             PictureBox health = new PictureBox(); // Create a new instance of the picture box
-            health.Image = Properties.Resources.
-
+            health.Image = Properties.Resources.heart;
+            health.SizeMode = PictureBoxSizeMode.AutoSize; // set the size to auto size
+            health.Left = rnd.Next(100, 890); // set spawn location to a random left
+            health.Top = rnd.Next(50, 600); // set spawn locatioion to a random top
+            health.Tag = "health"; // set the tag to health
+            this.Controls.Add(health); // add the health picture to the screen
+            health.BringToFront(); // bring it to front
+            player.BringToFront(); // bring the player to the front
         }
 
         private void Shoot(string direct)
